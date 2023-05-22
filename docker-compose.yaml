@@ -1,7 +1,7 @@
 version: '3'
 services:
-  sample-cs-api:
+  server:
     build: "./"
     image: "sample-cs-api-image"
     ports:
-    - "5002:5002"
+      - "5002:5002"
